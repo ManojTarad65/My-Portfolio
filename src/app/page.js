@@ -1,32 +1,40 @@
-"use client";
-import React, { useEffect } from "react";
+// "use client";
+// import React, { useEffect } from "react";
 
 
+// import Home from "./home/page";
+// import LocomotiveScroll from "locomotive-scroll";
+// import "locomotive-scroll/dist/locomotive-scroll.css";
 
-import Landing from "./home/page";
-import LocomotiveScroll from "locomotive-scroll";
+// const App = () => {
+//   useEffect(() => {
+//     const locomotiveScroll = new LocomotiveScroll();
+//     return () => {
+//       if (locomotiveScroll) locomotiveScroll.destroy();
+//     };
+//   }, []);
 
-const App = () => {
-  useEffect(() => {
-    const locomotiveScroll = new LocomotiveScroll();
-    return () => {
-      if (locomotiveScroll) locomotiveScroll.destroy();
-    };
-  }, []);
-
-  return (
-    <div
+//   return (
+//     <div
       
-      className="   w-screen text-white  "
-    >
-       <Landing/>
+//       className="   w-screen text-white  "
+//     >
+//        <Home/>
      
 
  
-    </div>
-  );
+//     </div>
+//   );
+// };
+
+// export default App;
+
+import React from "react";
+import LandingWrapper from "../components/LandingWrapper"; // adjust if needed
+
+const HomePage = () => {
+  return <LandingWrapper />;
 };
 
-export default App;
-
+export default HomePage;
 

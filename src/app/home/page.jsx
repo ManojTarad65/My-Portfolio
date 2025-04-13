@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { FaArrowUp } from "react-icons/fa";
 import Link from "next/link";
-const Landing = () => {
+const Home = () => {
   return (
     <div
       data-scroll
@@ -84,4 +84,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Home;
