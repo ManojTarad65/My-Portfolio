@@ -30,7 +30,7 @@
 // export default App;
 
 import React from "react";
-import LandingWrapper from "../components/LandingWrapper"; // adjust if needed
+import LandingWrapper from "@/components/LandingWrapper"; 
 
 const HomePage = () => {
   return <LandingWrapper />;
