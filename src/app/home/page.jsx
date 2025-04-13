@@ -10,7 +10,7 @@ const Landing = () => {
       data-scroll-speed="-.3"
       className="relative w-full h-screen text-[#E5E5E5] pt-1 overflow-hidden"
     >
-      {/* 🔥 Fullscreen Background Video */}
+    
       <video
         autoPlay
         muted

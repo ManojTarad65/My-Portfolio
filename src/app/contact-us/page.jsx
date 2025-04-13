@@ -9,7 +9,7 @@ const Footer = () => {
   return (
 
 
-//background 
+
     <div
     data-scroll
     data-scroll-speed="-.3"
@@ -68,7 +68,7 @@ const Footer = () => {
                 
                 <div className="flex flex-col md:flex-row justify-center items-center gap-6">
                
-              {/* connect -> linkedin , github , email */}
+          
 
                   <div className="flex space-x-4 mt-3">
                   <a

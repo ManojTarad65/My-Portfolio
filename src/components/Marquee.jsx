@@ -8,7 +8,7 @@ const Marquee = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed=".1"
-      className="w-full py-20  bg-[#1B262C] text-[#D1D5DB]   " //rounded-tr-3xl rounded-tl-3xl 
+      className="w-full py-20  bg-[#1B262C] text-[#D1D5DB]   "
     >
       <div className="Text border-t-2 border-b-2 border-zinc-300 flex  whitespace-nowrap overflow-hidden ">
         <motion.h1
