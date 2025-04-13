@@ -37,9 +37,21 @@
 // };
 
 // export default HomePage;
-import LandingClient from "../components/LandingClient"; // adjust path if needed
 
-export default function Home() {
-  return <LandingClient />;
-}
 
+
+
+
+// ✅ Fix: Only import LocomotiveScroll inside useEffect to prevent SSR usage
+import React from "react";
+import HomeWrapper from "./home-wrapper";
+
+const Page = () => {
+  return (
+    <div className="w-screen text-white">
+      <HomeWrapper />
+    </div>
+  );
+};
+
+export default Page;
