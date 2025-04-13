@@ -29,12 +29,17 @@
 
 // export default App;
 
-import React from "react";
-import LandingWrapper from "@/components/LandingWrapper"; 
+// import React from "react";
+// import LandingWrapper from "@/components/LandingWrapper"; 
 
-const HomePage = () => {
-  return <LandingWrapper />;
-};
+// const HomePage = () => {
+//   return <LandingWrapper />;
+// };
 
-export default HomePage;
+// export default HomePage;
+import LandingClient from "../components/LandingClient"; // adjust path if needed
+
+export default function Home() {
+  return <LandingClient />;
+}
 
