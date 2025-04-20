@@ -46,6 +46,7 @@
 import React from "react";
 import HomeWrapper from "./home-wrapper";
 
+
 const Page = () => {
   return (
     <div className="w-screen text-white">
@@ -55,3 +56,8 @@ const Page = () => {
 };
 
 export default Page;
+
+
+
+
+
